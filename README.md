@@ -8,24 +8,24 @@ Perkembangan awal program adalah sistem manajemen data sederhana yang mengimplem
 
 # Fitur-Fitur Utama
 1. Create (Buat)
-* Tambah Tempat Kuliner: Menambahkan data tempat kuliner baru, lengkap dengan nama, lokasi, dan rating.
-* Tambah Menu: Menambahkan menu baru ke tempat kuliner yang sudah ada. 
+   * Tambah Tempat Kuliner: Menambahkan data tempat kuliner baru, lengkap dengan nama, lokasi, dan rating.
+   * Tambah Menu: Menambahkan menu baru ke tempat kuliner yang sudah ada. 
 
 2. Read (Baca)
-* Tampilkan Semua Kuliner: Menampilkan seluruh data tempat kuliner dan menu yang tercatat di dalam sistem.
-* Cari Kuliner: Mencari tempat atau menu berdasarkan kata kunci.
-* Filter Kuliner: Melakukan pencarian spesifik dengan filter multi-level, yaitu:
-* Filter Rating: Menyaring menu berdasarkan rentang rating (1-2, 3-4, atau 5).
-* Filter Harga: Menyaring menu berdasarkan rentang harga (< Rp 15.000, Rp 15.000 - Rp 30.000, atau > Rp 30.000).
-* Rekomendasi Makanan: Menampilkan daftar menu dengan rating tertinggi yang tercatat dalam sistem.
+   * Tampilkan Semua Kuliner: Menampilkan seluruh data tempat kuliner dan menu yang tercatat di dalam sistem.
+   * Cari Kuliner: Mencari tempat atau menu berdasarkan kata kunci.
+   * Filter Kuliner: Melakukan pencarian spesifik dengan filter multi-level, yaitu:
+   * Filter Rating: Menyaring menu berdasarkan rentang rating (1-2, 3-4, atau 5).
+   * Filter Harga: Menyaring menu berdasarkan rentang harga (< Rp 15.000, Rp 15.000 - Rp 30.000, atau > Rp 30.000).
+   * Rekomendasi Makanan: Menampilkan daftar menu dengan rating tertinggi yang tercatat dalam sistem.
 
 3. Update (Perbarui)
-* Perbarui Tempat: Mengubah nama, lokasi, atau rating dari tempat kuliner.
-* Perbarui Menu: Mengubah nama, jenis, harga, atau rating dari menu tertentu.
+   * Perbarui Tempat: Mengubah nama, lokasi, atau rating dari tempat kuliner.
+   * Perbarui Menu: Mengubah nama, jenis, harga, atau rating dari menu tertentu.
 
 4. Delete (Hapus)
-* Hapus Tempat: Menghapus data tempat kuliner beserta seluruh menu di dalamnya.
-* Hapus Menu: Menghapus menu dari sebuah tempat kuliner.
+   * Hapus Tempat: Menghapus data tempat kuliner beserta seluruh menu di dalamnya.
+   * Hapus Menu: Menghapus menu dari sebuah tempat kuliner.
 
 # Alur Program
 ## Menu Utama
@@ -36,7 +36,7 @@ Saat program dijalankan, pengguna akan ditampilkan menu utama. pengguna dapat me
 4. Delete → Menghapus data tempat kuliner atau menu
 5. Keluar → Menghentikan program
    
-<img width="392" height="178" alt="image" src="https://github.com/user-attachments/assets/02366ea0-948a-4dad-83e1-a0507345b4b0" />
+   <img width="392" height="178" alt="image" src="https://github.com/user-attachments/assets/02366ea0-948a-4dad-83e1-a0507345b4b0" />
 
 ## Fitur 'Tambah tempat kuliner atau menu' (Create)
 Ketik 1 untuk masuk kedalam sub-menu 'Create' yang berisi 2 pilihan untuk menambahkan tempat kuliner yang baru atau menambahkan menu baru pada tempat kuliner yang sudah tercatat di program.
@@ -56,51 +56,61 @@ Ketik 1 untuk masuk kedalam sub-menu 'Create' yang berisi 2 pilihan untuk menamb
    <img width="695" height="285" alt="image" src="https://github.com/user-attachments/assets/6d6f7049-649e-4119-9fb6-2570a199d45f" />
 
 ## Fitur 'Telusuri Kuliner' (Read)
-Ketik 2 untuk masuk pada submenu yang berfungsi sebagai menu untuk memilih menampilkan semua kuliner yang tercatat, mencari kuliner, flter dan rekomendasi kuliner.
+Ketik 2 untuk masuk pada submenu yang berfungsi sebagai menu untuk memilih menampilkan semua kuliner yang tercatat, mencari kuliner, filter dan rekomendasi kuliner.
 
    <img width="459" height="237" alt="image" src="https://github.com/user-attachments/assets/f0c4ce45-931a-4f74-ada1-7c02a49654be" />
 
 1. Tampilkan semua kuliner
+
    Ketik 1 untuk menampilkan tempat dan makanan kuliner yang ada di program. program menggunakan data dummy agar tidak perlu menggunakan fitur 'create'.
    
-   <img width="764" height="508" alt="image" src="https://github.com/user-attachments/assets/c2f14df4-cbf0-4b78-89e6-a8eb6916123d" />
+   <img width="699" height="498" alt="image" src="https://github.com/user-attachments/assets/c2f14df4-cbf0-4b78-89e6-a8eb6916123d" />
 
-3. Cari kuliner
-   fitur untuk input nomor 3 bisa mencari kuliner berdasarkan tempat atau nama makanan bahkan bisa menggunakan sepenggal kata saja.
+2. Cari kuliner
+
+    fitur untuk input nomor 3 bisa mencari kuliner berdasarkan tempat atau nama makanan bahkan bisa menggunakan sepenggal kata saja.
    
    <img width="699" height="230" alt="image" src="https://github.com/user-attachments/assets/ae2cdde4-9967-4a80-95cf-c15f13cc14dc" />
 
-5. Filter kuliner
+3. Filter kuliner
+
    Pilihan nomor 4 akan menampilkan lagi pilihan untuk filter yang ingin digunakan. Jika sudah memilih pilihan filter, pengguna bisa menginput nomor 3 untuk menampilkan hasil.
    
-  <img width="288" height="134" alt="image" src="https://github.com/user-attachments/assets/be4f4103-0c1a-428d-a698-a693df8a8d72" />
+     <img width="288" height="134" alt="image" src="https://github.com/user-attachments/assets/be4f4103-0c1a-428d-a698-a693df8a8d72" />
 
-* Filter berdasarkan rating
+   * Filter berdasarkan rating
   
-  Pengguna menginput angka 1 dan memilih rentang rating menu makanan yang disediakan. Program akan menyimpan pilihan filter dan kembali pada tampilan untuk menambah filter lagi atau langsung menampilkan hasil filter.
+     Pengguna menginput angka 1 dan memilih rentang rating menu makanan yang disediakan. Program akan menyimpan pilihan filter dan kembali pada tampilan untuk menambah filter lagi atau langsung menampilkan hasil filter.
   
-  <img width="409" height="284" alt="image" src="https://github.com/user-attachments/assets/384b9a1e-c9e8-4e8c-aae2-e905485c5ba6" />
+     <img width="409" height="284" alt="image" src="https://github.com/user-attachments/assets/384b9a1e-c9e8-4e8c-aae2-e905485c5ba6" />
 
-   Berikut hasil filter ketika menginput angka 2 untuk memfilter rentang rating makanan dari 3 sampai 4.
+      Berikut hasil filter ketika menginput angka 2 untuk memfilter rentang rating makanan dari 3 sampai 4.
 
-  <img width="760" height="511" alt="image" src="https://github.com/user-attachments/assets/63e5aa23-2a7e-4de5-8263-ccd05fadc3bc" />
+     <img width="760" height="511" alt="image" src="https://github.com/user-attachments/assets/63e5aa23-2a7e-4de5-8263-ccd05fadc3bc" />
 
-* Filter berdasarkan harga
+   * Filter berdasarkan harga
 
-  Pengguna menginput angka 2 dan memilih rentang harga yang disediakan. berikut output jika memilih filter berdasarkan harga.
+     Pengguna menginput angka 2 dan memilih rentang harga yang disediakan. berikut output jika memilih filter berdasarkan harga.
 
-  <img width="759" height="514" alt="image" src="https://github.com/user-attachments/assets/d99ef003-238f-4173-baac-505b3be4c618" />
+     <img width="759" height="514" alt="image" src="https://github.com/user-attachments/assets/d99ef003-238f-4173-baac-505b3be4c618" />
 
-* Hasil Filter jika menggunakan 2 filter
-  Berikut output jika menggunakan 2 filter sekaligus dengan hanya menampilkan rating menu makanan 3-4 dan harga dibawah Rp15000
-  <img width="391" height="142" alt="image" src="https://github.com/user-attachments/assets/04acf33b-78ac-4f5b-be2e-e7bd191f34e0" />
-  <img width="761" height="594" alt="image" src="https://github.com/user-attachments/assets/d42be0fb-77e9-40e3-9a98-595e4795d6d5" />
+   * Hasil Filter jika menggunakan 2 filter
 
-6. Rekomendasi makanan
+     Berikut output jika menggunakan 2 filter sekaligus dengan hanya menampilkan rating menu makanan 3-4 dan harga dibawah Rp15000
+     
+     <img width="391" height="142" alt="image" src="https://github.com/user-attachments/assets/04acf33b-78ac-4f5b-be2e-e7bd191f34e0" />
+     <img width="761" height="594" alt="image" src="https://github.com/user-attachments/assets/d42be0fb-77e9-40e3-9a98-595e4795d6d5" />
+
+4. Rekomendasi makanan
+
    Program yang sekrang hanyalah menampilkan rekomendasi dengan rating makanan atau minuman tertinggi. Bisa menampilkan rekomendasi dengan input angka 4.
 
-7. Kembali
-   Input angka 5 untuk kembali ke menu utama.
+   <img width="603" height="171" alt="image" src="https://github.com/user-attachments/assets/1ce80303-6192-4038-bceb-e0d19138bd8b" />
+
+
+5. Kembali
+
+    Input angka 5 untuk kembali ke menu utama.
 
 ## Ubah tempat kuliner atau menu (Update)
 Sebelum mengubah isi data kuliner setelah menginput angka 4 pada menu utama, pengguna akan diperintah untuk input nama tempat atau id kuliner yang ingin dirubah datanya.
@@ -108,11 +118,13 @@ Sebelum mengubah isi data kuliner setelah menginput angka 4 pada menu utama, pen
 <img width="649" height="465" alt="image" src="https://github.com/user-attachments/assets/871cf0d3-8361-406b-8488-fbbea4d7b0b3" />
 
 1.  Ubah nama, lokasi, atau rating tempat kuliner
-   Pengguna dapat memilih angka 1 sampai 3 jika ingin mengubah salah satu data pada empat kuliner. Beriku salah satu output yang dihasilkan.
 
-<img width="385" height="260" alt="image" src="https://github.com/user-attachments/assets/7e8a234d-fdef-4790-82ca-e6422cc57e41" />
+    Pengguna dapat memilih angka 1 sampai 3 jika ingin mengubah salah satu data pada empat kuliner. Beriku salah satu output yang dihasilkan.
+
+      <img width="385" height="260" alt="image" src="https://github.com/user-attachments/assets/7e8a234d-fdef-4790-82ca-e6422cc57e41" />
 
 2. Ubah Menu
+ 
    Tampilan saat pengguna menginput angka 4 untuk mengubah menu, pengguna akan kembali diperintah untuk menginput id atau nama makanan yang akan diubah
    
    <img width="601" height="578" alt="image" src="https://github.com/user-attachments/assets/cc795021-efc2-4e06-8fce-48e9937e0da2" />
@@ -122,7 +134,8 @@ Sebelum mengubah isi data kuliner setelah menginput angka 4 pada menu utama, pen
    <img width="477" height="87" alt="image" src="https://github.com/user-attachments/assets/0967618a-127a-4f13-99bc-4524129e59e5" />
 
 5. Selesai
-   Input angka 5 untuk kembali ke menu utama.
+
+    Input angka 5 untuk kembali ke menu utama.
 
    <img width="435" height="417" alt="image" src="https://github.com/user-attachments/assets/b0993c0b-e65a-4a85-b025-df2a6ef5038b" />
 
@@ -132,11 +145,13 @@ Pengguna menginput angka 4 agar program menampilkan sub menu 'delete'.
 <img width="390" height="151" alt="image" src="https://github.com/user-attachments/assets/9223fc5c-4f75-4660-95fe-18af68bcbe4f" />
 
 1. Hapus tempat kuliner
+
    Jika ingin menghapus tempat kuliner, pengguna dapat menginput angka 1. Pilihan ini juga menghapus seluruh menu kuliner di tempat tersebut
 
    <img width="743" height="162" alt="image" src="https://github.com/user-attachments/assets/c1bdca88-8eff-4a2a-8335-eb4b958cad8c" />
 
-2. Hapus menu kuliner
+3. Hapus menu kuliner
+
    Input nama tempat atau Id kuliner setelah memilih input angka 2 pada sub menu 'delete'. Program akan menampilkan menu dan pengguna bisa memilih nama kuliner atau id menu tersebut untuk dihhapus.
 
    <img width="594" height="260" alt="image" src="https://github.com/user-attachments/assets/3c4c534c-c69a-437a-bd2a-a38ff9d2a165" />
@@ -147,7 +162,14 @@ Input angka 5 akan membuat pengguna keluar dari program.
 
 <img width="825" height="274" alt="image" src="https://github.com/user-attachments/assets/7b2cb749-da5b-458e-8a8e-b93197d49bfa" />
 
-
+# Pengembangan Program
+1. Perbaikan
+   * Terdapat konfirmasi kembali setelah menambahkan atau mengubah data kuliner
+   * Filter kuliner tidak perlu lagi memakai rentang
+   * Menanyakan kembali jika yakin menghapus data kuliner
+   * Terdapat variasi faktor sebuah kuliner dapat direkomendasikan
+  
+2. Penambahan fitur event yang berisi kumpulan tenant kuliner. Program dapat membantu para pengguna khususnya warga samarinda dapat melihat informasi pasar malam atau bazaar yang sedang diadakan sekaligus rekomendasi kulinernya. 
    
 
 
