@@ -117,6 +117,35 @@ Sebelum mengubah isi data kuliner setelah menginput angka 4 pada menu utama, pen
    
    <img width="601" height="578" alt="image" src="https://github.com/user-attachments/assets/cc795021-efc2-4e06-8fce-48e9937e0da2" />
 
+   Berikut salah satu output dari mengubah salah satu data menu
+   
+   <img width="477" height="87" alt="image" src="https://github.com/user-attachments/assets/0967618a-127a-4f13-99bc-4524129e59e5" />
+
+5. Selesai
+   Input angka 5 untuk kembali ke menu utama.
+
+   <img width="435" height="417" alt="image" src="https://github.com/user-attachments/assets/b0993c0b-e65a-4a85-b025-df2a6ef5038b" />
+
+## Hapus tempat kuliner atau menu (delete)
+Pengguna menginput angka 4 agar program menampilkan sub menu 'delete'.
+
+<img width="390" height="151" alt="image" src="https://github.com/user-attachments/assets/9223fc5c-4f75-4660-95fe-18af68bcbe4f" />
+
+1. Hapus tempat kuliner
+   Jika ingin menghapus tempat kuliner, pengguna dapat menginput angka 1. Pilihan ini juga menghapus seluruh menu kuliner di tempat tersebut
+
+   <img width="743" height="162" alt="image" src="https://github.com/user-attachments/assets/c1bdca88-8eff-4a2a-8335-eb4b958cad8c" />
+
+2. Hapus menu kuliner
+   Input nama tempat atau Id kuliner setelah memilih input angka 2 pada sub menu 'delete'. Program akan menampilkan menu dan pengguna bisa memilih nama kuliner atau id menu tersebut untuk dihhapus.
+
+   <img width="594" height="260" alt="image" src="https://github.com/user-attachments/assets/3c4c534c-c69a-437a-bd2a-a38ff9d2a165" />
+
+
+## Keluar
+Input angka 5 akan membuat pengguna keluar dari program.
+
+<img width="825" height="274" alt="image" src="https://github.com/user-attachments/assets/7b2cb749-da5b-458e-8a8e-b93197d49bfa" />
 
 
    
